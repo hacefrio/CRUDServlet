@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="UTF-8">
+        <title>Insertar</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+        <link rel="stylesheet" href="./style.css">
+
+    </head>
+    <body>
+        <!-- partial:index.partial.html -->
+        <div class="plus-btn-pos">
+            <div class="plus-btn">
+                <div class="r1"></div>
+                <div class="r2"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div>
+                <h1>Complete los siguientes campos</h1><br><br><br>
+                <form  name="frmInsertar" action="ProcesaInsertar" method="POST" >
+                    <center>
+                    <table border="1" align="center">
+                        <tbody>
+                            <tr>
+                                <td align="left"><font size ="10" > Rut &nbsp &nbsp: &nbsp</font> </td>
+                                <td><input type="text" name="txtRut" value=""  style="font-size:30px; width:250px"></td>
+                            </tr>
+                            <tr>
+                               <td align="left"><font size ="10" >Edad : </font></td>
+                                <td align="center" ><select  name="txtEdad" style="font-size:30px;">
+                                        <option>20</option>
+                                        <option>21</option>
+                                        <option>22</option>
+                                        <option>23</option>
+                                        <option>24</option>
+                                        <option>25</option>
+                                        <option>26</option>
+                                        <option>27</option>
+                                        <option>28</option>
+                                        <option>29</option>
+                                        <option>30</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td align="left"><font size ="10" >Sexo :</font> </td>
+                                <td align="center"><font size ="5" ><input type="radio" name="txtSexo" value="1" />Mujer
+                                    <input type="radio" name="txtSexo" value="0" />Hombre</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </center>
+                    <br>
+                    <input type="submit" value="insertar" />
+                </form>
+
+            </div>
+        </div>
+        <div class="menu-container">
+            <div class="menu-sliders"></div>
+            <div class="menu-sliders"></div>
+            <div class="menu-sliders"></div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="/Integrador/insertar.html" >Insertar</a>
+                    </li>
+                    <li>
+                        <a href="/Integrador/eliminar.html" >Eliminar</a>
+                    </li>
+                    <li>
+                        <a href="/Integrador/editar.jsp" >Editar</a>
+                    </li>
+                    <li>
+                        <a href="/Integrador/listar.html" >Listar</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+    </body>
+</html> 

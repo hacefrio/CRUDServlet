@@ -1,0 +1,12 @@
+create database dgac ;
+
+use dgac;
+
+create table cliente(
+	rut varchar(50) primary key,
+	edad int,
+	sexo boolean,
+	primary key(rut)
+);
+
+select * from cliente;
